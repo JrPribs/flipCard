@@ -1,0 +1,35 @@
+{
+  "name": "angular-flippy",
+  "description": "It's a presentation framework based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com",
+  "homepage": "https://github.com/bartaz/impress.js",
+  "license": [
+    "http://bartaz.mit-license.org/",
+    "http://www.gnu.org/licenses/"
+  ],
+  "main": [
+    "./dist/js/flippy.js",
+    "./dist/css/flippy.css",
+    "./dist/css/flippy-fancy.css"
+  ],
+  "ignore": [],
+  "keywords": [
+    "angular",
+    "css3",
+    "flip",
+    "animation"
+  ],
+  "author": {
+    "name": "Simon Wicki",
+    "web": "https://github.com/zwacky"
+  },
+  "_release": "0c63e17c4e",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "0c63e17c4eb49d66ff89a0a90dfdc99eb2fcf950"
+  },
+  "_source": "git://github.com/zwacky/angular-flippy.git",
+  "_target": "*",
+  "_originalSource": "angular-flippy",
+  "_direct": true
+}

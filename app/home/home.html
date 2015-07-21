@@ -1,0 +1,20 @@
+<div class="row">
+  <div id="card" class="text-center col-xs-12 col-md-4" toggle-class="flipped" ng-repeat="card in HomeCtrl.cardData">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title"><i class="glyphicon glyphicon-star-empty"></i></h3>
+      </div>
+      <div class="panel-body">
+        <figure class="front">
+            <h3>{{card.name}}</h3>
+            <hr>
+            <p></p>
+        </figure>
+        <figure class="back">{{card.desc}}</figure>
+      </div>
+      <div class="panel-footer" ng-if="card.labels.length > 0">
+              <span ng-repeat="label in card.labels" class="label" ng-style="{'background-color':{{label.color}}}"></span>
+      </div>
+    </div>
+  </div>
+</div>
